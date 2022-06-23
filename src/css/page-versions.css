@@ -12,20 +12,15 @@
 
 .page-versions .version-menu-toggle {
   color: inherit;
-  background-color: transparent;
+  background: url(../img/chevron.svg) no-repeat;
+  background-position: right 0.5rem top 50%;
+  background-size: auto 0.75em;
   border: none;
   outline: none;
   line-height: inherit;
-  padding: 0.5rem;
+  padding: 0.5rem 1.5rem 0.5rem 0.5rem;
   position: relative;
   z-index: var(--z-index-page-version-menu);
-}
-
-.page-versions .version-menu-toggle::after {
-  content: "";
-  background: url(../img/octicons-16.svg#view-chevron-down) no-repeat center right -0.15em / 1em 1em;
-  filter: var(--toolbar-icon-filter);
-  padding-right: 1rem;
 }
 
 .page-versions .version-menu {
